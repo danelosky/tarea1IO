@@ -5,7 +5,7 @@ function NumerodeToques(N,p)
     for i = N:-1:1
         for s=0:1
             for c=0:25  #numero de toques que puede realizar, estudiar caso 0
-                Vmax =25
+                Vmax =-100000
                 for x = 0:1 #Si entrevisto a i o no
                     Vsum = 0
                     for y = 0:25
